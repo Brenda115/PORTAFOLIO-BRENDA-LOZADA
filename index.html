@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
+
   <head>
     <title>My portfolio</title> 
-
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -32,10 +32,12 @@
       crossorigin="anonymous"
     ></script>
     <!-- fin importacion bootstrap  -->
+  
   </head>
 
 
-  <div class="container">
+  <body class="container">
+    <header class="navar">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"></a>
@@ -50,13 +52,13 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a class="nav-link " href="#">portafolio</a>
+              <a class="nav-link " href="#">proyecto</a>
             </li>
             <li class="nav-item">
               <a class="nav-link"  href="#">proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link"  href="#">Inicio </a>
+              <a class="nav-link"  href="#contacto">Contacto </a>
             </li>
               </ul>
             </li>
@@ -65,26 +67,28 @@
       </div>
     </div>
   </nav>
-
+</header>
 
 <section>
   <div class="text-center">
-    <img src="..." class="rounded" alt="...">
+    <img class="" alt="foto de perfil" src="./src/img/perfil.png">
   </div>
-  <h1 class="title">Brenda Lozada </h1>
+  <h1 class="title"> ¡Hola, soy Brenda! </h1>
     <i class="bi bi-envelope"></i>
     <i class="bi bi-instagram"></i>
     <i class="bi bi-whatsapp"></i>
     <p class="p"> Soy una diseñadora integral, me apasiona aprender, me considero una persona perseverante ,creativa, responsable</p>
       <button type="button" class="btn btn-light"> portafolio
       <i class="bi bi-save-fill"></i> </button>
+</section>
 
-<h2 class=">Conocimientos</h2>
-<img class="photo"
- src="src/image/photoshop.png"/>
+<section>  
+<h2>Conocimientos</h2>
+<img class="photo" alt="foto de photoshop" src="./src/img/photoshop.png"
+width="400"
+height="341" >
 <p> photoshop </p>
-<img class="photo"
-src="src/image/photoshop.png"/>
+
 <p> InDesign </p>
 <img class="photo"
 src="src/image/photoshop.png"/>
@@ -100,27 +104,35 @@ src="src/image/photoshop.png"/>
 src="src/image/photoshop.png"/>
 </section>
 
+<section>
 <h2> Educación</h2> 
 <i class="bi bi-mortarboard-fill"></i> <p> Diseño</p>
 <p> Universidad Autonoma Metropolitana, México . 
 Actualmente estudiante. </p>
 <p> Diseño de interiores </p>
 <p> Universidad de Mendoza, Argentina. Estudiante de intercambio, 2024. </p>
+</section>  
 
+<section>
 <h2> Idiomas </h2>
 <p> Inglés -B1 </p>
-<p> Francés - A1</p>
+</section>
+
+<section>
 <h2> Habilidades </h2>
 <p> Trabajo en equipo </p>
 <p> Optimista </p>
 <p> Creativa </p>
 <p> Responsable </p>
 <p> Trabajadora </p>
+</section>
 
+<section>
 <h3> Mis proyectos </h3>
 <button type="button" class="btn btn-light"> mis proyectos
   <i class="bi bi-save-fill"></i> </button>
 <div>
+
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -154,7 +166,9 @@ src="src/image/photoshop.png"/>
 <img class="photo"
 src="src/image/photoshop.png"/>
 </div>
+<section>
 
+</section id= "contacto">
 <h2> Contacto </h2> 
 <i class="bi bi-envelope-at-fill"></i>
 <p> Brenda.lozada@gmail.com </p> 
@@ -163,7 +177,7 @@ src="src/image/photoshop.png"/>
 <i class="bi bi-instagram"></i>
 <p> blm_7l</p>
 </nav>
-  
+  </section>
   
   </body>
 </html>
