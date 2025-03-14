@@ -11,12 +11,7 @@
 .navbar {
   background-color: #333;
 }   
-
-.container-flex {     
-  display:flex;         
-  justify-content: center;
-}
-
+  
 body.container {
   background: #faf4ea
   }
@@ -26,9 +21,10 @@ font-family: var(--font);
 font-weight: 1000;
 color: #5d0532;
 }
-h2.title {
+h2.title{
   font-family: var(--font-title); 
-  font-weight: 400;
+  font-weight: 800;
+  text-align: center;
 }
 
 h3.title {
@@ -42,7 +38,3 @@ font-style: normal;
 font-weight: 300;
 }
 
-.carousel-indicators{
-display:flex;
-flex-direction:column-reverse;
-}
