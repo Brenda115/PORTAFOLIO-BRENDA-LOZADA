@@ -1,30 +1,43 @@
 :root{
     --color-texto: #320B21;
-    --font:"Rozha One", serif;
+    --font: "DM Serif Display", serif;
     --font-title: 
 }
 
 
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Chicle&family=Emblema+One&family=Gravitas+One&family=Lilita+One&family=Limelight&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Chicle&family=DM+Serif+Display:ital@0;1&family=Emblema+One&family=Gravitas+One&family=Lilita+One&family=Limelight&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 body {
   background: #e3afaf
     }
+.navbar {
+  background-color:rgba(246, 235, 174, 1);
+}  
+p.portafolio{
+  font-family: "Gloock", serif;
+  color:rgba(97, 94, 7, 1);
+}
 
 section.presentación{
   background-color: rgba(194, 169, 23, 1);
 }
-header.navbar {
-  background-color:rgba(246, 235, 174, 1);
-}  
 
-
+section.conocimientos{
+  background-color:rgba(154, 136, 3, 1);
+}
+section.intermedio{
+  background-color: rgba(246, 235, 174, 1);
+}
+section.final{
+background-color:rgba(213, 135, 24, 1);
+}
 h1.title {
 font-family: var(--font);
 font-weight: 1000;
-color:rgba(255, 242, 178, 1);
+color:rgb(255, 231, 231);
 text-align: center;
+font-style: normal;
 }
 
 h2.title{
@@ -48,6 +61,17 @@ font-style: normal;
 font-weight: 300;
 }
 
-.btn{
-align-items:center;
+i.icono{
+color:rgba(255, 255, 255, 1);  
+}
+p.p-boton {
+color:rgba(255, 255, 255, 1);   
+}
+button.btn-light{
+  background: linear-gradient(rgb(72, 24, 48), 10%, rgb(220, 9, 44));
+  color:rgb(255, 255, 255);    
+}
+
+i.boton1{
+  color:rgb(245, 226, 245);    
 }
