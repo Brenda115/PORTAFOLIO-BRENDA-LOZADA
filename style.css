@@ -21,33 +21,33 @@ p.portafolio{
 }
 
 section.presentación{
-  background-color: rgba(194, 169, 23, 1);
+  background-color: rgba(140, 132, 31, 1);
 }
 
 section.conocimientos{
-  background-color:rgba(154, 136, 3, 1);
+  background-color:rgba(246, 255, 192, 1);
 }
 section.intermedio{
-  background-color: rgba(118, 102, 20, 0.778);
+  background-color: rgba(246, 235, 174, 1);
 }
 section.final{
-background-color:rgba(246, 246, 43, 0.831);
+background-color:rgba(64, 64, 38, 1);
 }
 h1.title {
 font-family: var(--font);
 font-weight: 1300;
-color:rgb(255, 231, 231);
+color:rgba(255, 253, 183, 1);
 text-align: center;
 font-style: normal;
 }
 
 h2.title{
   font-family:var(--font-texto);
-  color:rgb(255, 231, 231);
+  color:rgba(64, 64, 38, 1);
   text-align: center;
 }
 h3.title{ 
-  color:rgb(255, 231, 231);
+  color:rgba(250, 229, 136, 1);
   text-align: center;
 }
 p.knwl{
