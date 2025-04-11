@@ -32,43 +32,42 @@
       crossorigin="anonymous"
     ></script>
     <!-- fin importacion bootstrap  -->
-  
+     
   </head>
 
 
   <body>
-    <header class="navbar">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <div class="bg-primary bg-gradient py-3"></div>
-        <a class="navbar-brand" href="#"></a>
-        <p class="portafolio">Portafolio</p>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Portafolio</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link " href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link"  href="#contacto">Contacto </a>
-            </li>
-              </ul>
-            </li>
-          </ul>
+        <a class="navbar-brand" href="#">Brenda Lozada</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portafolio</h5>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+
+
+    ________________________________________
+    
 </header>
 
 <section class="presentación">
@@ -80,7 +79,7 @@
 <span>
   
   <p>
-  <i class="icono bi bi-envelope" ></i>
+    <button class="icono bi bi-envelope" href="mailto:brenda.lozada@gmial.com"></button> 
   <i class="icono bi bi-instagram"></i>
   <i class="icono bi bi-whatsapp"></i>
 </p>
@@ -92,7 +91,7 @@
   <h1 class="title"> Soy Brenda </h1>
   
   <p class="intro text-center"> Soy una diseñadora integral, me apasiona aprender, me considero una persona perseverante ,creativa, responsable</p>
-      <button type="button" class="btn btn-light"> portafolio 
+      <button type="button"  href="pdf/CURRICULUM VITAE .pdf" class="btn btn-light"> portafolio 
       <i class="boton1 bi bi-save-fill"></i> </button>
 </div>      
 </section> 
@@ -158,7 +157,7 @@
     <p> Universidad de Mendoza, Argentina. Estudiante de intercambio, 2024. </p>  
 </div> 
 <div class="col-12 col-lg-4">
-  <h2 class="title"> Hobbies e intereses</h2>
+  <h2 class="title"> Hobbies</h2>
   <i class="bi bi-earbuds"></i>
   <p>Escuchar música </p>
   <i class="bi bi-palette-fill"></i>
