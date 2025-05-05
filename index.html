@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="author" content="Brenda Lozada Montoya" 
+    <meta name="author" content="Brenda Lozada Montoya" />
     <meta name="description" content="Brief description" />
 
     <meta property="og:title" content="Your Page Title" />
@@ -18,7 +18,7 @@
     <link href="style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
     <!-- importar bootstrap  -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -31,14 +31,16 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+ 
     <!-- fin importacion bootstrap  -->
 
   </head>
 
-
-    <header class="navbar navbar-light bg-light fixed-top">
+<body>
+<header>
+    <nav class="navbar bg-light fixed-top">
       <div class="container-fluid">
-        <p class="inicio navbar-brand" href="index.html">Brenda Lozada</p>
+        <a class="inicio navbar-brand" href="index.html">PORTAFOLIO</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -63,131 +65,175 @@
         </div>
       </div>
     </nav>
-
-
-
-    
-</header>
-
-<body>
-<section class="presentación">
-  <div class="row">
-<div class="col-12 col-lg-6" >
-  <img class="rounded-3" alt="foto de perfil" 
-  width="185"
-  height="210">
-<span>
   
-  <p>
-    <button class="icono bi bi-envelope" href="mailto:brenda.lozada@gmial.com"></button> 
-  <i class="icono bi bi-instagram"></i>
-  <i class="icono bi bi-whatsapp"></i>
-</p>
-</span>
+  </header>
 
+  <section class="presentacion pt-5 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-7 text-center text-lg-start">
+          <h1 class="title1"> ¡Hola! </h1>
+          <h1 class="title2"> Soy Brenda </h1>
+          <a type="button" class="btn btn-light" href="https://drive.google.com"> 
+            Portafolio <i class="boton1 bi bi-save-fill"></i> 
+          </a>
+        </div>
+  
+        <div class="col-12 col-lg-5 d-flex justify-content-center  mt-4 mt-lg-0">  
+          <div class="d-flex flex-column flex-lg-row align-items-center gap-4">
+            <img class="rounded-5" alt="foto de perfil" src="./scr/img/imagen pefil.jpg" width="260" height="360">
+  
+            <div class="d-flex flex-lg-column gap-3">
+              <a class="icono" href="mailto:brenda.lozada@gmail.com"> <i class="bi bi-envelope"></i></a> 
+              <a class="icono" href="https://www.instagram.com/blm_7l"> <i class="bi bi-instagram"></i></a> 
+              <a class="icono" href="https://wa.me/525540950623"> <i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </div> 
+  
+      </div>
+    </div> 
+  </section>
+
+
+<section class="intro py-4">
+  <div class="container">
+  <div class="row">
+<div class="col-12 col-lg-12"> 
+  <p class="intro"> Soy una diseñadora integral, me apasiona aprender, me considero una persona perseverante ,creativa, responsable</p>    
 </div>
-<div class="col-12 col-lg-6">
-  <h1 class="title"> ¡Hola! </h1>
-  <h1 class="title"> Soy Brenda </h1>
-  
-  <p class="intro text-center"> Soy una diseñadora integral, me apasiona aprender, me considero una persona perseverante ,creativa, responsable</p>
-      <button type="button"  href="pdf/CURRICULUM VITAE .pdf" class="btn btn-light"> portafolio 
-      <i class="boton1 bi bi-save-fill"></i> </button>
-</div>      
-</section> 
+  </div>
+  </div>
+</section>
+ 
 
-
-<section class="conocimientos">
-  <div class="row">
+<section class="conocimientos py-5">
+  <div class="container">
     <h2 class="title"> Conocimientos </h2> 
-      <img class="col-6 col-lg-2 " alt="foto de photoshop" src="./scr/img/photoshop.svg" 
+  <div class="row ">
+    <div class="col-12 col-lg-7"> 
+      <div class="row text-center">
+        <div class="col-6 col-md-4 mb-4">
+      <img  alt="foto de photoshop" src="./scr/img/photoshop.svg" 
       width="50"
       height="50"> 
-      <p class="knwl col-lg-2">photoshop</p>
-
-      <img class="col-6 col-lg-2 " alt="foto de indesign" src="./scr/img/indesign.svg"
+      <p class="programas">photoshop</p>
+      </div>
+      <div class="col-6 col-md-4 mb-4">
+      <img alt="foto de indesign" src="./scr/img/indesign.svg"
       width="50"
-      height="50"/>
-
-      <img class="col-6 col-lg-2" alt="foto de Illustrator" src="./scr/img/illustrator.svg"
+      height="50">
+      <p class="programas">indesign</p>
+      </div>
+      <div class="col-6 col-md-4 mb-4">
+      <img alt="foto de Illustrator" src="./scr/img/illustrator.svg"
       width="50"
-      height="50" />
-     
-      <img class="col-6 col-lg-2 " alt="foto de AutoCAD" src="./scr/img/autocad.svg"
-      width="50 "
-      height="50" />
-   
-      <img class="col-6 col-lg-2 " alt="foto de SketchUP" src="./scr/img/sketchup.svg"
+      height="50">
+      <p class="programas">Illustrator</p>
+      </div>
+      <div class="col-6 col-md-4 mb-4">
+      <img  alt="foto de After effect" src="./scr/img/After.svg"
+      width="50"
+      height="50">
+      <p class="programas">After Effect</p>
+      </div>
+      <div class="col-6 col-md-4 mb-4">
+      <img alt="foto de AutoCAD" src="./scr/img/autocad.svg"
+      width="50"
+      height="50">
+    <p class="programas">AutoCAD</p>
+      </div>
+      <div class="col-6 col-md-4 mb-4">
+      <img alt="foto de SketchUP" src="./scr/img/sketchup.svg"
         width="50"
-        height="50" />
+        height="50">
+        <p class="programas">SketchUP</p>
+        </div>  
+      </div> 
+      </div> 
 
-        </div>       
+      <div class="col-12 col-lg-5">
+      <section class="Habilidades">
+        <h3 class="title"> Habilidades </h3>
+        <ul class="list-unstyled">
+
+        <li class="d-flex align-items-center mb-2">
+        <i class="bi star bi-star-fill me-2"></i>
+        <span class="hb"> Trabajo en equipo </span> </li>
+        <li class="d-flex align-items-center mb-2">
+        <i class="bi star bi-star-fill"></i>
+        <span class="hb"> Optimista </span> </li>
+        <li class="d-flex align-items-center mb-2">
+        <i class="bi star bi-star-fill"></i>
+        <span class="hb"> Creativa </span> </li>
+        <li class="d-flex align-items-center mb-2">
+        <i class="bi star bi-star-fill"></i>
+        <span class="hb"> Responsable </span> </li>
+        <li class="d-flex align-items-center mb-2">
+        <i class="bi star bi-star-fill"></i>
+        <span class="hb"> Trabajadora </span> </li>
+      </ul>
+      </div>
+      </div>
+      </div> 
         </section>
 
-
-        <section class="conocimientos">
-        <div class="row">
-        <p class="knwl col-lg-2">photoshop</p>
-        <p class="knwl col-lg-2">InDesign</p>
-        <p class="knwl col-lg-2">Illustrator</p>
-        <p class="knwl col-lg-2">AutoCAD</p>
-        <p class="knwl col-lg-2">ScketchUP</p>
-        </div>
-        </section>
-
-<section class="intermedio">
+        
+   <section class="educacion">
   <div class="row">
-
   <div class="col-12 col-lg-6">
-    <h2 class="title"> Educación</h2> 
-    <i class="bi bi-mortarboard-fill"></i> <p> Diseño</p>
-   <p>Secundaria Diurna N.19 Dolores Ángela Castillo </p>
-    <p>Preparatoria oficial no. 89</p>   
-    <p> Universidad Autonoma Metropolitana, México . 
+    <h3 class="title"> Educación</h3> 
+    <i class="bi star bi-mortarboard-fill"></i> 
+   <p class="hb">Secundaria Diurna N.19 Dolores Ángela Castillo </p>
+   <i class="bi star bi-mortarboard-fill"></i> 
+   <p class="hb">Preparatoria oficial no. 89</p>  
+   <i class="bi star bi-mortarboard-fill"></i>
+   <p class="hb"> Diseño</p> 
+    <p class="hb"> Universidad Autonoma Metropolitana, México . 
     Actualmente estudiante. </p>
-    <p> Diseño de interiores </p>
-    <p> Universidad de Mendoza, Argentina. Estudiante de intercambio, 2024. </p>  
-    <h2 class="title"> Idiomas </h2>
-    <p> Inglés -B1 </p>
-  </div> 
-<div class="col-12 col-lg-6">
-  <h2 class="title"> Hobbies</h2>
-  <i class="bi bi-earbuds"></i>
-  <p>Música </p>
-  <i class="bi bi-palette-fill"></i>
-  <p>Pintar </p>
-  <i class="bi bi-tree-fill"></i>
-  <p>Hiking</p>
-  <i class="bi bi-suitcase-fill"></i>
-  <p>Viajar</p>
-    <h2 class="title"> Habilidades </h2>
-    <p> Trabajo en equipo </p>
-    <p> Optimista </p>
-    <p> Creativa </p>
-    <p> Responsable </p>
-    <p> Trabajadora </p>
+    <i class="bi star bi-mortarboard-fill"></i>
+    <p class="hb"> Diseño de interiores </p>
+    <p class="hb"> Universidad de Mendoza, Argentina. Estudiante de intercambio, 2024. </p>  
+    <h3 class="title">Idiomas</h3>
+    <p class="hb"> Inglés -B1 </p>
+  </section>
+    
+    <section class="hobbies">
+    <div class="col-12 col-lg-6">
+    <h2 class="title"> Hobbies</h2>
+    <a class="icono2"><i class="bi bi-earbuds"></i></a>
+    <p>Música </p>
+    <a class="icono2"><i class="bi bi-airplane-fill"></i></a>
+    <p>Viajar</p>
+    <a class="icono2"><i class="bi bi-palette-fill"></i></a>
+    <p>Pintar </p>
+    <a class="icono2"><i class="bi bi-tree-fill"></i></a>
+    <p>Hiking</p>
+    <a class="icono2"><i class="bi bi-dribbble"></i></a>
+    <p>Deporte</p>
+    <a class="icono2"><i class="bi bi-people-fill"></i></a>
+    <p>Convivir con amigos/familia</p>
   </div> 
 </section>
 
 
-<section class="final">
+<section class="proyectos">
   <div class="row"> 
     <div class="col-12 col-lg-6">
-<h3 class="title"> Mis proyectos </h3>
-<button type="button" class="btn btn-light"> mis proyectos
-  <i class="bi bi-save-fill"></i> </button>
+<h4 class="title"> Mis proyectos </h4>
+<a type="button" class="btn btn-light2" > MIS PROYECTOS </a>
 </div>
 
 <div class="col-12 col-lg-6">
-  <div id="carouselExampleIndicators" class="carousel slide">
+<div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button ty  pe="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="scr/img/img/proyectos/Baños públicos_ planta.svg" class="d-block w-100" alt="imagen_diseño de interiores"
+        <img src="scr/img/img/proyectos/Baños públicos_ planta.svg" class="d-block w-100" alt="imagen_diseño de interiores">
       </div>
       <div class="carousel-item">
         <img src="scr/img/img/proyectos/CIELORRASO_2.svg" class="d-block w-100" alt="...">
@@ -218,30 +264,24 @@ src="src/image/photoshop.png"/>
 <footer>
 <section class="final">
 <div class="row"> 
-  <div class="col-lg-6"> 
+  <div class="col-12 col-lg-6"> 
   </div>
 
   <div class="col-12 col-lg-6"> 
-  <h2 class="title">Contacto</h2>
-
-    <ul>
-    <li>
-      <i class="icono bi bi-envelope-at-fill"></i>
-      <a href="mailto:brenda.lozada@gmial.com">
-        brenda.lozada@gmial.com</a>
+  <h3 class="title">Contacto</h3>
+   <i class="icono3  bi bi-envelope-at-fill"></i>
+   <a href="mailto:brenda.lozada@gmial.com">
+  brenda.lozada@gmial.com</a>
     </li>
-
-    <li>
-    <i class="icono bi bi-whatsapp"></i>
-    <a href="tel:5540950623">
-    5540950623 </a>
+   <i class="icono3 bi bi-whatsapp"></i>
+   <a href="tel:5540950623">
+   5540950623 </a>
   </li>
-
-  <li>
-  <i class="icono bi bi-instagram"></i>
+  <i class="icono3 bi bi-instagram"></i>
   <a href="">
   blm_7l</a>
   </li>
+
 </div>
 </section>
 </footer>  

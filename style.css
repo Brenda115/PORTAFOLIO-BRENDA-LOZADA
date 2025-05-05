@@ -1,8 +1,8 @@
 :root{
-    --color-texto: #320B21;
+
     --font-texto:"Poppins", sans-serif;
     --font: "DM Serif Display", serif;
-    --font-title: 
+
 }
 
 
@@ -10,78 +10,161 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Chicle&family=DM+Serif+Display:ital@0;1&family=Emblema+One&family=Gravitas+One&family=Lilita+One&family=Limelight&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 
- 
-header.navbar{
-  background-color:rgb(109, 19, 112)
+.navbar {
+  background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
 }
-bg-light {
-  background-color:rgba(246, 255, 192, 1);
+a.inicio,
+.navbar .offcanvas-title{
+color: white;
+font-family: 'Poppins', sans-serif;  
 }
-
-p.portafolio{
-  font-family: "Gloock", serif;
-  color:rgba(97, 94, 7, 1);
+a.inicio:hover {
+  opacity: 0.5;
 }
-
-section.presentación{
-  background-color: rgba(140, 132, 31, 1);
-}
-
-section.conocimientos{
-  background-color:rgba(246, 255, 192, 1);
-}
-section.intermedio{
-  background-color: rgba(246, 235, 174, 1);
-}
-section.final{
-background-color:rgba(64, 64, 38, 1);
-}
-h1.title {
-font-family: var(--font);
-font-weight: 2000;
-color:rgba(255, 253, 183, 1);
-text-align: center;
-font-style: normal;
+.offcanvas-header{
+  background:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
+  }
+.offcanvas-body {
+background:rgba(255, 248, 218, 1);
 }
 
-h2.title{
-  font-family:var(--font-texto);
-  color:rgba(64, 64, 38, 1);
+@media (min-width: 992px) {
+  .presentacion .btn {
+    display: inline-block;
+  }
+}
+section.presentacion { 
+  background-color: rgba(255, 248, 218, 1);
+}
+h1.title1 {
+  margin-top: 9rem;
+  font-family: var(--font);
+  font-weight: 900;
+  font-size:4rem;
+  color:rgba(103, 21, 12, 1);
   text-align: center;
-}
-h3.title{ 
-  color:rgba(250, 229, 136, 1);
+  }
+
+  h1.title2 {
+    font-family: var(--font);
+  font-weight: 900;
+  font-size:4rem;
+  color:rgba(103, 21, 12, 1);
   text-align: center;
-}
-p.knwl{
-  color:rgba(255, 255, 255, 1) 
-}
+  }
 
-p.intro{
-color:rgba(255, 255, 255, 1) ;
-text-align: center;
-}
+  a.btn-light{
+    font-size:1.5rem;
+    font-weight: 300; 
+    background:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
+    color:rgb(0, 0, 0);   
+  }
+  i.boton1{
+    color:rgb(0, 0, 0);  
+  }
 
-p{
-font-family: "Poppins", sans-serif;
-font-style:light;
-font-weight: 800;
-color:rgb(0, 0, 0) 
-}
+  a.icono{
+    font-size:1.7rem;
+    width: 50px;
+    height: 50px;
+    color:rgba(255, 255, 255, 1);  
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    }
 
-i.icono{
-color:rgba(255, 255, 255, 1);  
-}
-p.p-boton {
-color:rgba(255, 255, 255, 1);   
-}
-button.btn-light{
+    section.intro {
+      background-color: rgba(255, 248, 218, 1);
+    }
+
+    p.intro{
+      color:rgb(0, 0, 0) ;
+      font-weight: 400;
+      font-size:1.3rem;
+      }
+
+  
+  section.conocimientos{
+  background-color: rgba(255, 248, 218, 1);
+  }
+
+  h2.title{
+  font-family: var(--font);
+  color:rgba(105, 9, 24, 1);
+  font-weight: 800;
+  font-size:3rem;
+  }
+
+  p.programas{
+  font-family: var(--font-texto);
+  color:rgba(105, 9, 24, 1);
+  font-weight: 300;
   text-align: center;
-  background: linear-gradient(rgb(72, 24, 48), 10%, rgb(220, 9, 44));
-  color:rgb(255, 255, 255);    
+  font-size:1rem;
+  }
+
+section.Habilidades{
+background:linear-gradient(to right, rgba(229, 16, 80, 1) 0%, rgba(150, 20, 59, 1) 100%); 
 }
 
-i.boton1{
-  text-align: center;
-  color:rgb(245, 226, 245);    
+h3.title{
+  font-family: var(--font);
+  color:rgb(255, 255, 255) ;
+  font-weight: 800;
+  font-size:3rem;
+}
+i.star{
+  color:rgb(255, 255, 255) ;
+}
+p.hb{
+  font-family: var(--font-texto);
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  font-size:1rem;
+}
+section.educacion{
+  background:linear-gradient(to right, rgba(255, 148, 0, 1)) 100%, rgba(202, 124, 9, 1) 100%;
+}
+section.hobbies{
+  background-color: rgba(255, 248, 218, 1);
+}
+p {
+  font-family: var(--font-texto);
+  color:rgba(105, 9, 24, 1);
+  font-weight: 300;
+  font-size:1rem;
+}
+a.icono2{
+  font-size:2rem;
+  width: 60px;
+  height: 60px;
+  color:rgba(255, 255, 255, 1);  
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+section.proyectos{
+  background-color: rgba(255, 248, 218, 1);
+}
+h4.title{
+  color:rgba(105, 9, 24, 1);
+  font-weight: 800;
+  font-size:3rem;
+  }
+  a.btn-light2{
+    font-size:1rem;
+    font-weight: 300; 
+    background:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
+    color:rgb(0, 0, 0);   
+  }
+  section.final{
+    background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%); 
+  }
+i.icono3{
+  color:rgb(255, 255, 255);
 }

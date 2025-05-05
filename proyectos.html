@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="author" content="Brenda Lozada Montoya" 
+    <meta name="author" content="Brenda Lozada Montoya" />
     <meta name="description" content="Brief description" />
 
     <meta property="og:title" content="Your Page Title" />
@@ -15,7 +15,7 @@
     <meta property="og:url" content="/this-page.html" />
     <meta property="og:site_name" content="Your Site Name" />
 
-    <link href="style.css" rel="stylesheet" />
+    <link href="style_proyectos.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -31,45 +31,97 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+ 
     <!-- fin importacion bootstrap  -->
 
   </head>
-
-  <header class="navbar navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <p class="inicio navbar-brand" href="index.html">Brenda Lozada</p>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portafolio</h5>
-          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
+<body>
+<header>
+    <nav class="navbar bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="inicio navbar-brand" href="index.html">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Portafolio</h5>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
 
+
+  
 </header>
 <body>
-<section class="proyectos">
-<h4 class="ueas">Diseño </h4>
-<h4 class="ueas">editorial </h4>
-<img class="diseño" alt="foto de cielorraso 1" src="scr/img/img/proyectos/CIELORRASO_1_.svg" 
+<section>
+<h1 class="title1">Diseño</h1>
+<h1 class="title2">editorial </h1>
+<p>Creación de un libro de fotografía</p>
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button ty  pe="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="scr/img/img/proyectos/Libro-1.jpg" class="d-block w-100" alt="libro p.1">
+    </div>
+    <div class="carousel-item active">
+      <img src="scr/img/img/proyectos/Libro-2.jpg" class="d-block w-100" alt=" libro p.2">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+<img class="editorial" alt="foto de paginacion1" src="scr/img/img/proyectos/PAG.1.jpg" 
+width="200"
+height="350">
+<img class="editorial" alt="foto de paginacion2" src="scr/img/img/proyectos/PAG.2.jpg" 
+width="200"
+height="350">
+
+</section>
+
+
+<section class="">
+  <h1 class="title1">Diseño</h1>
+  <h1 class="title2">de interiores </h1>
+  <p>Diseño de cielorraso de una peluquería</p>
+<img class="diseño" alt="foto de cielorraso 1" src="scr/img/img/proyectos/CIELORRASO_1.svg"
 width="230"
 height="210">
 
@@ -78,10 +130,24 @@ height="210">
 width="230"
 height="210">
 
+<p>Resideño del baño de mujeres en la Universidad de Mendoza,Argentina</p>
 
-<img class="diseño" alt="foto de baños_planta" src="scr/img/img/proyectos/Baños públicos_ planta.svg"
+<img class="diseño" alt="foto de baños_planta" src="scr/img/img/proyectos/Baño_planta.svg"
 width="230"
 height="210">
+
+</section>
+
+
+<section class="">
+  <h1 class="title1">Diseño</h1>
+  <h1 class="title2">3D </h1>
+
+
+
+  <section class="">
+    <h1 class="title1">Proyecto</h1>
+    <h1 class="title2"> ALIA </h1>
 
 <img class="diseño" alt="foto de cartel 1" src="scr/img/img/proyectos/Cartel 1.svg"
 width="230"
@@ -91,7 +157,7 @@ height="210">
 width="230"
 height="210">
 
-</img>
+
 </section>
 </body>
 </html>
