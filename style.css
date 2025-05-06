@@ -37,10 +37,10 @@ section.presentacion {
   background-color: rgba(255, 248, 218, 1);
 }
 h1.title1 {
-  margin-top: 9rem;
+  margin-top: 5rem;
   font-family: var(--font);
   font-weight: 900;
-  font-size:4rem;
+  font-size:5rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
   }
@@ -48,7 +48,7 @@ h1.title1 {
   h1.title2 {
     font-family: var(--font);
   font-weight: 900;
-  font-size:4rem;
+  font-size:5rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
   }
@@ -107,6 +107,7 @@ h1.title1 {
 
 section.Habilidades{
 background:linear-gradient(to right, rgba(229, 16, 80, 1) 0%, rgba(150, 20, 59, 1) 100%); 
+padding: 2rem;
 }
 
 h3.title{
@@ -118,17 +119,19 @@ h3.title{
 i.star{
   color:rgb(255, 255, 255) ;
 }
-p.hb{
+.Habilidades-texto{
   font-family: var(--font-texto);
   color:rgb(255, 255, 255);
   font-weight: 300;
   font-size:1rem;
 }
 section.educacion{
+
   background:linear-gradient(to right, rgba(255, 148, 0, 1)) 100%, rgba(202, 124, 9, 1) 100%;
 }
 section.hobbies{
   background-color: rgba(255, 248, 218, 1);
+  padding: 2rem;
 }
 p {
   font-family: var(--font-texto);
