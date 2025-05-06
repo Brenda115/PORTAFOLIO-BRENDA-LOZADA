@@ -2,7 +2,6 @@
 
     --font-texto:"Poppins", sans-serif;
     --font: "DM Serif Display", serif;
-
 }
 
 
@@ -32,15 +31,17 @@ background:rgba(255, 248, 218, 1);
   .presentacion .btn {
     display: inline-block;
   }
+  
 }
+
 section.presentacion { 
   background-color: rgba(255, 248, 218, 1);
 }
 h1.title1 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-family: var(--font);
   font-weight: 900;
-  font-size:5rem;
+  font-size:6rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
   }
@@ -48,17 +49,23 @@ h1.title1 {
   h1.title2 {
     font-family: var(--font);
   font-weight: 900;
-  font-size:5rem;
+  font-size:6rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
   }
-
+ 
+  boton-completo{
+    display: flex;
+  justify-content: center;
+  }
+  
   a.btn-light{
     font-size:1.5rem;
     font-weight: 300; 
     background:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
     color:rgb(0, 0, 0);   
   }
+  
   i.boton1{
     color:rgb(0, 0, 0);  
   }
@@ -94,7 +101,7 @@ h1.title1 {
   font-family: var(--font);
   color:rgba(105, 9, 24, 1);
   font-weight: 800;
-  font-size:3rem;
+  font-size:3.5rem;
   }
 
   p.programas{
@@ -102,7 +109,7 @@ h1.title1 {
   color:rgba(105, 9, 24, 1);
   font-weight: 300;
   text-align: center;
-  font-size:1rem;
+  font-size:1.3rem;
   }
 
 section.Habilidades{
@@ -114,7 +121,7 @@ h3.title{
   font-family: var(--font);
   color:rgb(255, 255, 255) ;
   font-weight: 800;
-  font-size:3rem;
+  font-size:3.5rem;
 }
 i.star{
   color:rgb(255, 255, 255) ;
@@ -123,41 +130,49 @@ i.star{
   font-family: var(--font-texto);
   color:rgb(255, 255, 255);
   font-weight: 300;
-  font-size:1rem;
+  font-size:1.3rem;
+}
+p.Habilidades {
+  font-family: var(--font-texto);
+  color:rgb(255, 255, 255);
+  font-weight: 300;
+  font-size:1.3rem;
 }
 section.educacion{
-
   background:linear-gradient(to right, rgba(255, 148, 0, 1)) 100%, rgba(202, 124, 9, 1) 100%;
 }
 section.hobbies{
   background-color: rgba(255, 248, 218, 1);
-  padding: 2rem;
+ 
 }
+
 p {
   font-family: var(--font-texto);
   color:rgba(105, 9, 24, 1);
   font-weight: 300;
-  font-size:1rem;
+  font-size:1.3rem;
 }
-a.icono2{
+.icono2{
   font-size:2rem;
   width: 60px;
   height: 60px;
   color:rgba(255, 255, 255, 1);  
   border-radius: 50%;
   background-color: rgb(0, 0, 0);
-  display:flex;
+  display:inline-flex;
   align-items: center;
   justify-content: center;
   }
+
 
 section.proyectos{
   background-color: rgba(255, 248, 218, 1);
 }
 h4.title{
+  font-family: var(--font-texto);
   color:rgba(105, 9, 24, 1);
   font-weight: 800;
-  font-size:3rem;
+  font-size:2.5rem;
   }
   a.btn-light2{
     font-size:1rem;
@@ -168,6 +183,16 @@ h4.title{
   section.final{
     background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%); 
   }
+  h5.title{
+    font-family: var(--font);
+    color:rgb(255, 255, 255) ;
+    font-weight: 800;
+    font-size:2.5rem;
+  }
 i.icono3{
   color:rgb(255, 255, 255);
+}
+a.contacto{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
