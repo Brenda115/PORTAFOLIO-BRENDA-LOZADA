@@ -27,14 +27,34 @@ background:rgba(255, 248, 218, 1);
 }
 
 body{
-background:rgba(255, 248, 218, 1);
+  margin: 0;
+  padding-top: 70px;
+  background-color: #fff8da;
 }
 
-H1 {
-    margin-top: 5rem;
-    font-family: var(--font-title);
-    font-weight: 900;
+h1.title {
+    font-family: var(--font-text);
+    font-weight: 800;
     font-size:2.7rem;
     color:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
     text-align: center;
+}
+
+.contacto {
+  font-family: var(--font-text);
+  font-size: 1.1rem;
+  color: #510404;
+  text-decoration: none;
+}
+
+.contacto:hover {
+  text-decoration: underline;
+}
+
+.fondo {
+  background-color: #fff8da;
+  min-height: 100vh;
+  padding-top: 4px; 
+  justify-content: center;
+  align-items: center;
 }

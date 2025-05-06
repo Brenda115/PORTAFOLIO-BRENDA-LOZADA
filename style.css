@@ -40,7 +40,7 @@ section.presentacion {
 h1.title1 {
   margin-top: 4rem;
   font-family: var(--font);
-  font-weight: 900;
+  font-weight: 800;
   font-size:6rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
@@ -48,7 +48,7 @@ h1.title1 {
 
   h1.title2 {
     font-family: var(--font);
-  font-weight: 900;
+  font-weight: 800;
   font-size:6rem;
   color:rgba(103, 21, 12, 1);
   text-align: center;
@@ -191,8 +191,11 @@ h4.title{
   }
 i.icono3{
   color:rgb(255, 255, 255);
+  width: 20px;
+  height: 20px;
 }
 a.contacto{
+  font-size:1.2rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
