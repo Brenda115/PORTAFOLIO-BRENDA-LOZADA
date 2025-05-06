@@ -11,6 +11,27 @@ body {
   padding: 0;
   background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);}
 
+
+  .my-navbar {
+    background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
+  }
+  a.inicio :active
+  .navbar .offcanvas-title{
+  color: white;
+  font-family: 'Poppins', sans-serif;  
+  }
+  a.inicio:hover {
+    opacity: 0.5;
+  }
+  .offcanvas-header{
+    background:linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
+    }
+  .offcanvas-body {
+  background:rgba(255, 248, 218, 1);
+  }
+
+
+
 h1.title {
   font-family: var(--font-text);
   font-weight: 800;
@@ -23,7 +44,7 @@ h1.title {
 .contacto {
   font-family: var(--font-text);
   font-size: 1.2rem;
-  color: #510404;
+  color: #ffffff;
   text-decoration: none;
   display: block;
 
@@ -42,7 +63,7 @@ h1.title {
 }
 
 .icono3 :hover {
-  color: #e2e1de;
+  color: #ffffff;
   cursor: pointer;
   margin-right: 0.5rem;
   font-size: 1.5rem;

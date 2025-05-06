@@ -8,8 +8,12 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amarante&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Chicle&family=DM+Serif+Display:ital@0;1&family=Emblema+One&family=Gravitas+One&family=Lilita+One&family=Limelight&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rozha+One&family=Rubik+Mono+One&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-.navbar {
+body {
+  margin: 0;
+  padding: 0;
+  background-color:rgba(255, 248, 218, 1);
+}
+.my-navbar {
   background: linear-gradient(to right, rgba(242, 45, 117, 1) 11%, rgba(255, 173, 59, 1) 94%);
 }
 a.inicio :active
@@ -29,8 +33,7 @@ background:rgba(255, 248, 218, 1);
 
 @media (min-width: 992px) {
   .presentacion .btn {
-    display: inline-block;
-  }
+    display: inline-block;}
   
 }
 
@@ -100,7 +103,7 @@ h1.title1 {
   h2.title{
   font-family: var(--font);
   color:rgba(105, 9, 24, 1);
-  font-weight: 800;
+  font-weight: 700;
   font-size:3.5rem;
   }
 
